@@ -1,0 +1,51 @@
+# Candidates for data/guides.txt — prune, then copy the keepers (paths only) into guides.txt
+# Source A: https://www.gov.uk/browse/tax/vat (via GOV.UK search API)
+# Source B: VAT notices collection (deeper, longer docs)
+
+# --- A. Mainstream guides (format: guide -> details.parts[]) ---
+how-vat-works
+register-for-vat
+charge-reclaim-record-vat
+submit-vat-return
+pay-vat
+vat-repayments
+vat-flat-rate-scheme
+vat-cash-accounting-scheme
+vat-annual-accounting-scheme
+vat-margin-schemes
+vat-retail-schemes
+vat-builders
+vat-charities
+tax-on-shopping
+
+# --- A. Answers (format: answer -> details.body, short) ---
+vat-rates
+vat-building-new-home
+vat-visits-inspections
+insolvency-and-your-vat
+vat-motor-dealers
+
+# --- A. Detailed guidance (format: detailed_guide -> details.body) ---
+guidance/vat-payments-on-account
+guidance/vat-domestic-reverse-charge-for-building-and-construction-services
+guidance/vat-costs-or-disbursements-passed-to-customers
+guidance/vat-exemption-and-partial-exemption
+guidance/vat-imports-acquisitions-and-purchases-from-abroad
+guidance/vat-exports-dispatches-and-supplying-goods-abroad
+guidance/vat-how-to-work-out-your-place-of-supply-of-services
+guidance/vat-self-billing-arrangements
+guidance/vat-instalments-deposits-credit-sales
+
+# --- B. VAT notices (detailed_guide, long; good for chunk-size experiments) ---
+guidance/how-to-fill-in-and-submit-your-vat-return-vat-notice-70012
+guidance/relief-from-vat-on-bad-debts-notice-70018
+guidance/record-keeping-for-vat-notice-70021
+guidance/how-to-correct-vat-errors-and-make-adjustments-or-claims-vat-notice-70045
+guidance/vat-on-motoring-expenses-notice-70064
+guidance/business-entertainment-and-vat-notice-70065
+guidance/food-products-and-vat-notice-70114
+guidance/catering-takeaway-food-and-vat-notice-7091
+guidance/vat-on-education-and-vocational-training-notice-70130
+guidance/partial-exemption-vat-notice-706
+guidance/buildings-and-construction-vat-notice-708
+guidance/hotels-holiday-accommodation-and-vat-notice-7093

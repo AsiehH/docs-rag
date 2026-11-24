@@ -1,0 +1,27 @@
+[project]
+name = "docs-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4==4.15.0",
+    "numpy==2.5.4",
+    "openai==3.48.0",
+    "pandas==3.1.1",
+    "python-dotenv==1.2.4",
+    "requests==2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+    "pytest==9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+ [tool.uv]
+ add-bounds = "exact"
+ exclude-newer = "7 days"
