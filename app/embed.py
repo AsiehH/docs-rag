@@ -3,18 +3,18 @@ import time
 
 from openai import OpenAI
 
-from app.settings import EMBEDDING_MODEL, OPENAI_API_KEY
+from app.settings import EMBEDDING_MODEL
 
 logger = logging.getLogger(__name__)
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 
-def embed_texts(texts: list[str]) -> list[list[float]]:
+def embed_texts(texts: list[str], client: OpenAI) -> list[list[float]]:
     """
     Embed a list of texts using the OpenAI API.
 
     Args:
         texts (list[str]): A list of strings to be embedded.
+        client (OpenAI): An instance of the OpenAI client.
 
     Returns:
         list[list[float]]: A list of embeddings, where each embedding is a list of floats.
