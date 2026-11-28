@@ -14,3 +14,5 @@ CHUNK_OVERLAP: int = 50
 
 GUIDES_FILE: Path = Path("data/guides.txt")
 RAW_DIR: Path = Path("data/raw")
+CHROMA_DIR: Path = Path("data/chroma_db")
+COLLECTION_NAME: str = "vat_guides"
